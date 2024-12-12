@@ -1,0 +1,181 @@
+body{
+  font-family: "Nunito";
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+header{
+  background: #ac249e;
+  background: url(kartinki/header.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-decoration: none;
+}
+ui{
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  text-decoration: none;
+}
+a{
+  font-size: 30px;
+  padding: 20px;
+  text-decoration: none;
+  color: #ac249e;
+    cursor: pointer;
+}
+a:hover{
+  color: #7416cc;
+  text-decoration: none;
+}
+#footer{
+  padding-top: 140px;
+  width: 100%;
+  position: relative;
+}
+
+.title-text h3{
+  color: black;
+  font-size: 35px;
+  padding-bottom: 20px;
+  border-spacing: 0px;
+}
+.footer{
+  background: white;
+  color: #7416cc;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.leftpony{
+  text-align: left;
+  padding: 20px;
+  display: inline-block;
+  vertical-align:top;
+  font-size: 22px;
+  object-fit: contain;
+}
+.rightpony{
+  text-align: right;
+  padding: 20px;
+  display: inline-block;
+  vertical-align:top;
+  font-size: 22px;
+  object-fit: cover;
+}
+.maintext{
+  font-size: 20px;
+  text-align: center;
+
+}
+.mainchast{
+  background: radial-gradient(at 0% 40%, #FFFFFF 40px, #DDDDDD 20%, #CCCCCC 30%);
+}
+.row{
+  font-size: 30px
+}
+.box{
+  font-size: 30px;
+}
+.btn{
+  font-size: 30px;
+}
+.contacts .row form .box
+{
+  text-align: center;
+  width: 90%;
+  margin: 1rem 0rem 2rem;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+}
+.contacts .row{
+    padding: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.map{
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
+h1{
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+}
+.container .img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container .img-container .img{
+  width: 350px;
+  height: 250px;
+  border: 5px solid #000;
+  border-radius: 16%;
+  overflow: hidden;
+}
+.container .img-container .img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.container .img-container .img:hover img{
+  transform: scale(1.5);
+}
+
+.container .pop-up{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+.container .pop-up img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #7416cc;
+  border-radius: 8px;
+  width: 80%;
+}
+.container .pop-up span{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background: #7416cc;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+}

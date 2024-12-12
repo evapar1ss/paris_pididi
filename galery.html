@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="author" content="Eva Paris">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Смешнявки</title>
+  </head>
+
+  <body>
+    <header align = "left">
+      <style>
+      ul {
+       list-style-type: none;}
+     </style>
+    </head>
+    <body> 
+     <ul>
+      <ul>
+        <li><a href="main.html">Пони</a></li>
+        <li><a href="galery.html">Смешнявки</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </header>
+      <div class="mainchast">
+        <div class="container">
+          <h1>Просто смешные фото</h1>
+          <hr>
+          <div class="img-container">
+            <div class="img">
+              <img src="3.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="6.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="7.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="8.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="0.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="10.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="12.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="13.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="1.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="2.jpg" alt="">
+            </div>
+          </div>
+          <hr>
+          <h1> </h1>
+
+
+          <div class="pop-up">
+            <span>&times;</span>
+            <img src="3.jpg">
+          </div>
+
+
+        </div>
+        <script>
+          document.querySelectorAll('.img-container img').forEach(img =>{
+            img.onclick = () =>{
+            document.querySelector('.pop-up').style.display = 'block';
+            document.querySelector('.pop-up img').src = img.getAttribute('src');
+          }
+        });
+
+        document.querySelector('.pop-up span').onclick = () =>{
+          document.querySelector('.pop-up').style.display = 'none';
+        }
+
+        </script>
+
+      </div>
+
+      <section id="footer">
+
+        <div class="footer">
+          <div class="footer-right">
+            <p>hedgehoginthepinkfog@gmail.com</p>
+            <p>89825171259</p>
+        </div>
+        <div class="title-text">
+          <h3>contacts</h3>
+        </div>
+          <div class="footer-left">
+            <h2></h2>
+            <p>tg: @fuckerniger</p>
+            <p>vk: @ibpouy</p>
+          </div>
+        </div>
+  </body>
+</html>
